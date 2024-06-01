@@ -1,0 +1,138 @@
+/* Body Styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the Header */
+header {
+    display: flex;
+    background-color: #131313;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Navigation Styling */
+.main-nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+a:hover {
+    color: rgb(39, 60, 221);
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    height: 5vh;
+    border-radius: 40px;
+    margin: 20px;
+
+}
+
+
+.logo2{
+    height: 5vh;
+    border-radius: 30px;
+    margin:20px;
+    margin-right: 20%;
+    padding: 23px;
+    /* margin: auto; */
+}
+/* Remembrance Section Styling */
+.rememberance {
+    margin-top: 90px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/* Line Styling */
+.line {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Child Styling */
+.child {
+    padding: 23px;
+    max-width: 590px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* Childbase Styling */
+.childbase {
+    padding: 23px;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(237, 231, 231);
+    margin: auto;
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: none;
+    margin-top: 1px;
+    margin-right: 34px;
+}
+
+/* Paragraph Tag Styling */
+.ptag {
+    color: rgb(5, 2, 8);
+    padding: 12px;
+    margin: auto;
+}
+
+/* Childbasee Styling */
+.childbasee {
+    padding: 23px;
+    max-width: 100%;
+    margin: 12px auto;
+    text-align: center;
+    list-style-type: none;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child, .childbase, .childbasee {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo {
+        height: 8vh;
+        margin: 10px;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .rememberance {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    a {
+        margin-right: 10px;
+    }
+}
+
