@@ -16,12 +16,11 @@ header {
 }
 
 .general {
-    /* border: 2px solid gray; */
     background-color: rgb(252, 249, 249);
-    width: 670px;
+    width: 90%;
+    max-width: 670px;
     margin: auto;
     box-shadow: 5px 5px 13px rgb(184, 180, 180);
-    /* margin-top: 10px; */
 }
 
 /* Navigation Styling */
@@ -46,17 +45,20 @@ a:hover {
 .logo {
     display: flex;
     height: 5vh;
+    width: auto;
+    max-width: 100px;
     border-radius: 40px;
     margin: 20px;
 }
 
 .logo2 {
     height: 5vh;
+    width: auto;
+    max-width: 100px;
     border-radius: 30px;
     margin: 20px;
     margin-right: 20%;
     padding: 23px;
-    /* margin: auto; */
 }
 
 /* Remembrance Section Styling */
@@ -84,13 +86,13 @@ a:hover {
 
 /* Childbase Styling */
 .childbase {
-    padding:23px; 
+    padding: 23px; 
     width: 90%;
     text-align: center;
     list-style-type: none;
     background-color: rgb(255, 253, 253);
     margin: auto;
-    margin-top: 20px; 
+    margin-top: 10px; 
 }
 
 /* Unordered List Styling */
@@ -123,13 +125,18 @@ ul {
         align-items: center;
     }
 
+    .main-nav ul li {
+        margin-bottom: 10px; /* Add spacing between menu items */
+    }
+
     .child, .childbase, .childbasee {
-        width: 70%;
+        width: 100%;
         padding: 10px;
     }
 
-    .logo {
+    .logo, .logo2 {
         height: 8vh;
+        width: auto;
         margin: 10px;
     }
 
@@ -145,12 +152,4 @@ ul {
     a {
         margin-right: 10px;
     }
-}
-
-hr.shadow-rounded {
-    border: none;
-    height: 2px;
-    background-color: gray;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
 }
