@@ -15,6 +15,15 @@ header {
     padding: 10px;
 }
 
+.general {
+    /* border: 2px solid gray; */
+    background-color: rgb(252, 249, 249);
+    width: 670px;
+    margin: auto;
+    box-shadow: 5px 5px 13px rgb(184, 180, 180);
+    /* margin-top: 10px; */
+}
+
 /* Navigation Styling */
 .main-nav ul {
     display: flex;
@@ -22,6 +31,7 @@ header {
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
     color: white;
@@ -38,23 +48,23 @@ a:hover {
     height: 5vh;
     border-radius: 40px;
     margin: 20px;
-
 }
 
-
-.logo2{
+.logo2 {
     height: 5vh;
     border-radius: 30px;
-    margin:20px;
+    margin: 20px;
     margin-right: 20%;
     padding: 23px;
     /* margin: auto; */
 }
+
 /* Remembrance Section Styling */
 .rememberance {
     margin-top: 90px;
     margin-left: 10px;
     text-align: center;
+    padding: 10%;
 }
 
 /* Line Styling */
@@ -74,12 +84,13 @@ a:hover {
 
 /* Childbase Styling */
 .childbase {
-    padding: 23px;
-    width: 100%;
+    padding:23px; 
+    width: 90%;
     text-align: center;
     list-style-type: none;
-    background-color: rgb(237, 231, 231);
+    background-color: rgb(255, 253, 253);
     margin: auto;
+    margin-top: 20px; 
 }
 
 /* Unordered List Styling */
@@ -136,3 +147,35 @@ ul {
     }
 }
 
+/* HR Styles */
+hr.basic-hr {
+    border: 1px solid black;
+}
+
+hr.custom-color-thickness {
+    border: none;
+    border-top: 3px solid red;
+}
+
+hr.dotted-line {
+    border: none;
+    border-top: 2px dotted blue;
+}
+
+hr.dashed-line {
+    border: none;
+    border-top: 2px dashed green;
+}
+
+hr.double-line {
+    border: none;
+    border-top: 3px double black;
+}
+
+hr.shadow-rounded {
+    border: none;
+    height: 2px;
+    background-color: gray;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
